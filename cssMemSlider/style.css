@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-
+/* -------------------- */
 body {
 background-color: #000;
 }
@@ -65,7 +65,7 @@ article img{
 	margin-left: -300%;
   transition: all 0.5s ease;
 }
-
+/* -------------------- */
 .text_block {
   width: 25rem;
   height: 3rem;
@@ -94,7 +94,6 @@ article img{
 	line-height: 0;
   transition: all 0.5s ease;
 }
-
 .text_0 {
  visibility: hidden;
 }
@@ -119,7 +118,7 @@ article img{
 	margin-left: -400%;
   transition: all 0.5s ease;
 }
-
+/* -------------------- */
 .navigation{ 
   width: 8rem;
   display: flex;
