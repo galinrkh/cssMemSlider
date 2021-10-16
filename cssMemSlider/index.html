@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Слайдер на CSS</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <div class="wrapper">
+    <input checked type="radio" name="respond" id="desktop">
+    <article class="slider">
+
+      <input type="radio" name="mem" id="mem_1" checked>
+      <input type="radio" name="mem" id="mem_2">
+      <input type="radio" name="mem" id="mem_3">
+      <input type="radio" name="mem" id="mem_4">
+
+      <div class="slides">
+        <div class="overflow">
+          <div class="image">
+            <article><img class="slide" src="img/01.jpg"></article>
+            <article><img class="slide" src="img/02.jpg"></article>
+            <article><img class="slide" src="img/03.jpg"></article>
+            <article><img class="slide" src="img/04.jpg"></article>
+          </div>
+        </div>
+      </div>
+
+      <div class="text_block">
+        <label for="mem">
+          <p class="text text_0">Lorem, ipsum dolor 0.</p>
+        </label>
+        <label for="mem_1">
+          <p class="text text_1">It's my life</p>
+        </label>
+        <label for="mem_1">
+          <p class="text text_2">Juniors vs Middle</p>
+        </label>
+        <label for="mem_1">
+          <p class="text text_3">Мои ошибки)</p>
+        </label>
+        <label for="mem_1">
+          <p class="text text_4">Перед дедлайном)</p>
+        </label>
+      </div>
+
+      <div class="navigation">
+        <label for="mem_1" class="nav_item">
+          <div class="bullet bullet_1"></div>
+        </label>
+        <label for="mem_2" class="nav_item">
+          <div class="bullet bullet_2"></div>
+        </label>
+        <label for="mem_3" class="nav_item">
+          <div class="bullet bullet_3"></div>
+        </label>
+        <label for="mem_4" class="nav_item">
+          <div class="bullet bullet_4"></div>
+        </label>
+      </div>
+
+    </article>
+  </div>
+</body>
+
+</html>
